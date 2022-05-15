@@ -1,0 +1,22 @@
+<div class="modal-content">
+ <div class="modal-header">
+  <h4 class="modal-title pull-left">Titulos modal</h4>
+ </div>
+ <hr>
+ <form>
+
+  <div class="form-row row justify-content-center">
+   <div class="form-group col-md-5">
+    <label for="campo">campo formulario:</label>
+    <input type="text" id="campo" name="campo" class="form-control col">
+   </div>
+
+  </div>
+
+  <div class="modal-footer">
+   <button type="button" class="btn btn-secondary float-right col-2 mr-2" (click)="bsModalRef.hide()"> Cancelar
+   </button>
+   <button type="button" class="btn btn-primary float-right col-2" (click)="enviarDatos()"> Guardar </button>
+  </div>
+ </form>
+</div>
